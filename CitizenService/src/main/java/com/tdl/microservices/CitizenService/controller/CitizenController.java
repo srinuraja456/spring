@@ -40,6 +40,7 @@ public class CitizenController {
 	  @RequestMapping(path="/id/{id}") public
 	  ResponseEntity< Optional<Citizen>> getById(@PathVariable Integer id) {
 	  java.util.Optional<Citizen> listOfCitizen = citzenrepo.findById(id);
+	  
 	  return new ResponseEntity< Optional<Citizen>>(listOfCitizen,HttpStatus.OK);
 	  
 	  }
