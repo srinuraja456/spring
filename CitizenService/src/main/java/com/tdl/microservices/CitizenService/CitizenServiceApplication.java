@@ -9,6 +9,7 @@ public class CitizenServiceApplication {
 	public static void main(String[] args) {
 		
 		SpringApplication.run(CitizenServiceApplication.class, args);
+		///changed in master branch
 	}
 
 }
