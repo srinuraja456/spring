@@ -24,8 +24,13 @@ public class A {
 	}
 	@Override
 	public String toString() {
+<<<<<<< HEAD
 		System.out.println("over");
 		return "A[x=" + x + ",y=" + y + "]";
+=======
+		System.out.println("edited");
+		return "A[x=" + x + ",y=" + y + "]....";
+>>>>>>> refs/remotes/origin/BMW-2506
 	}
 	
 
