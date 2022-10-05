@@ -24,6 +24,7 @@ public class A {
 	}
 	@Override
 	public String toString() {
+		System.out.println("over");
 		return "A[x=" + x + ",y=" + y + "]";
 	}
 	
