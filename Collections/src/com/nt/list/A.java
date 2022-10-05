@@ -24,7 +24,7 @@ public class A {
 	}
 	@Override
 	public String toString() {
-		return "A[x=" + x + ",y=" + y + "]";
+		return "A[x=" + x + ",y=" + y + "]....";
 	}
 	
 
